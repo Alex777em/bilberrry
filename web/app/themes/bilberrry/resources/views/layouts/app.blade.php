@@ -18,7 +18,7 @@
     <div class="container">
       @yield('content')
       <div class="mt-5">
-        @php (get_sorted_jobs_by_title())>
+        @php (get_sorted_jobs_by_title())
       </div>
     </div>
   </main>
